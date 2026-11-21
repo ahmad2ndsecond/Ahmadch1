@@ -2004,7 +2004,7 @@ local function ShowModMenu()
     pcall(function()
         local message = string.format([[
 ╔══════════════════════════╗
-║     ★ YT-MURSLEEN CHEATS ★      ║
+║     ★ PREMIUM CHEATS ★      ║
 ╚══════════════════════════╝
 ───────────────────────
 Bypass Actived Successfully ✓
@@ -2012,7 +2012,7 @@ Bypass Actived Successfully ✓
 ]])
         local Msg = require("client.slua.logic.common.logic_common_msg_box")
         if Msg then
-            Msg.Show(1,"YT-MURSLEEN CHEATS LUA PAK",
+            Msg.Show(1,"PREMIUM CHEATS LUA PAK",
             message,
             function() end, "Ok")
             _G.MenuAlreadyShown = true
