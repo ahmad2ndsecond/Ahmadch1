@@ -242,7 +242,7 @@ local PREMIUMLicenseCore = (function()
     local CreateLocalExpiry = (function()
         return function(cfg, wallReader)
             local E = {}
-            local expiredText = 'Mod expired. DM +92 [  ] for renewal.'
+            local expiredText = 'Mod expired. DM  [  ] for renewal.'
             local tamperText  = "Don't be over smart"
             local blockedMessage, blockedPhase
             local function finite(n)
@@ -780,7 +780,7 @@ local PREMIUMLoginUI = (function()
                 visibility(background, visibleEnum)
                 add(background, 0, 0, 500, 248, 0)
                 local title = make("TextBlock", data.container)
-                title:SetText("PREMIUM +92 LOGIN")
+                title:SetText("PREMIUM  LOGIN")
                 setTextStyle(title, 19, color(0.1, 0.9, 1, 1))
                 visibility(title, passive); add(title, 22, 15, 456, 30, 1)
                 data.input = make("EditableTextBox", data.container)
@@ -903,7 +903,7 @@ local PREMIUMWelcomeUI = (function()
         end
         local WelcomeUI = {Width = 600, Height = 276}
         local WelcomeText = {
-            "OWNER [ +92 ]",
+            "OWNER [  ]",
             "Kill limit 8-10",
             "Play smart and avoid report",
         }
@@ -3497,7 +3497,7 @@ local function ShowLexusVIPMenu()
         local function Step_ScamAlert()
             local title = _G.LexusLang == "EN" and "SCAM ALERT" or "CẢNH BÁO SCAM MOD"
             local content = _G.LexusLang == "EN" 
-                and "Join my Telegram to avoid scammers owner PREMIUM" 
+                and "Join my Telegram to avoid scammers  PREMIUM" 
                 or "Tham Gia Telegram Tôi Để Tránh Các Thành Phần Bán Mod Free. Zalo _ TELE _\nĐỊT MẸ NHỮNG CON CHÓ ĂN CẮP MOD BỐ DŨNG XONG MÚA NÀY NỌ NHỤC CHẾT MẸ HAHAHA TAO CHỈ CÓ DUY NHẤT 1 TÀI KHOẢN TELE 1 TÀI KHOẢN ZALO NHÉ CẨN THẬN NHÉ"
             local btn1 = _G.LexusLang == "EN" and "JOIN" or "THAM GIA"
             local btn2 = _G.LexusLang == "EN" and "CLOSE" or "ĐÓNG"
@@ -3508,7 +3508,7 @@ local function ShowLexusVIPMenu()
         end
 
         local function Step_Welcome()
-            local title = _G.LexusLang == "EN" and "+ +92 [  ]" or "CHÀO MỪNG MÀY"
+            local title = _G.LexusLang == "EN" and "+  [  ]" or "CHÀO MỪNG MÀY"
             local content = _G.LexusLang == "EN" 
                 and "Hi, PREMIUM here The premium is now inside Game Settings!\nIMPORTANT: Enable fewer features to avoid lag. Play safe!" 
                 or "Này Tao Là Dũng Đây. Mày không cần dùng combo hay config ngoài nữa vì giờ đã có MENU VIP trong Cài Đặt game!\nNHƯNG MÀY HÃY NGHE TAO NÓI NÀY, BẬT ÍT CHỨC NĂNG THÔI LAG LẮM HIỂU KHÔNG TAO SỢ MÁY MÀY CHỊU ĐÉO NỔI THÔI, VỚI LẠI BẮN ĐỪNG LỘ BẮN KỸ TÍ LÀ SAFE"
