@@ -3234,7 +3234,7 @@ function _G.InitModMenuTab()
     
     -- 1. TẠO BẢNG ID ẢO VỚI TEXT MỚI (Hỗ trợ 2 ngôn ngữ)
     local FakeTextMap = {
-        [999000] = T(" MOD FREE Cẩn Thận Bị Lừa Mod Chủ Quyền", "PREMIUM MENU"),
+        [999000] = T(" MOD  Cẩn Thận Bị Lừa Mod Chủ Quyền", "PREMIUM MENU"),
         [999001] = T("HIỂN THỊ (ESP)", "VISUALS (ESP) MENU"),
      [999002] = T("AIMBOT GỐC & ĐẠN MENU", "NATIVE HIGH & RISK TRACK"),
        [999003] = T("AIMBOT ROYAL - CUSTOM ( Aim Gần - Aim Scope )", "CUSTOM AIMBOT (Close & Scope)"),
@@ -3498,7 +3498,7 @@ local function ShowLexusVIPMenu()
             local title = _G.LexusLang == "EN" and "SCAM ALERT" or "CẢNH BÁO SCAM MOD"
             local content = _G.LexusLang == "EN" 
                 and "Join my Telegram to avoid scammers  PREMIUM" 
-                or "Tham Gia Telegram Tôi Để Tránh Các Thành Phần Bán Mod Free. Zalo _ TELE _\nĐỊT MẸ NHỮNG CON CHÓ ĂN CẮP MOD BỐ DŨNG XONG MÚA NÀY NỌ NHỤC CHẾT MẸ HAHAHA TAO CHỈ CÓ DUY NHẤT 1 TÀI KHOẢN TELE 1 TÀI KHOẢN ZALO NHÉ CẨN THẬN NHÉ"
+                or "Tham Gia Telegram Tôi Để Tránh Các Thành Phần Bán Mod . Zalo _ TELE _\nĐỊT MẸ NHỮNG CON CHÓ ĂN CẮP MOD BỐ DŨNG XONG MÚA NÀY NỌ NHỤC CHẾT MẸ HAHAHA TAO CHỈ CÓ DUY NHẤT 1 TÀI KHOẢN TELE 1 TÀI KHOẢN ZALO NHÉ CẨN THẬN NHÉ"
             local btn1 = _G.LexusLang == "EN" and "JOIN" or "THAM GIA"
             local btn2 = _G.LexusLang == "EN" and "CLOSE" or "ĐÓNG"
 
